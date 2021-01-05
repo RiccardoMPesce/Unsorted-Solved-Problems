@@ -1,11 +1,8 @@
 def collect_max(grid):
-    len_y = len(grid)
-    len_x = len(grid[0])
-
     grid_path = grid[:][:]
 
-    for i in range(len_y):
-        for j in range(len_x):
+    for i in range(len(grid_path)):
+        for j in range(len(grid_path[i])):
             if i == 0 and j == 0:
                 grid_path[i][j] = grid_path[i][j]
             elif i == 0:
@@ -15,7 +12,7 @@ def collect_max(grid):
             else:
                 grid_path[i][j] = grid[i][j] + max(grid_path[i][j - 1], grid_path[i - 1][j])
 
-    return grid_path[len_y - 1][len_x - 1]
+    return grid_path[-1][-1]
 
 
 def main():
