@@ -6,4 +6,4 @@ Problems from different sources, solved and collected in a single repo
 * [Shortest path from beginning to end in an undirected graph](https://github.com/RiccardoMPesce/Unsorted-Solved-Problems/blob/main/TopCoderDP/undirected_shortest_path.py)
 * [Collect maximum items in a path](https://github.com/RiccardoMPesce/Unsorted-Solved-Problems/blob/main/TopCoderDP/apple_collector.py)
 * [Least expensive path](https://github.com/RiccardoMPesce/Unsorted-Solved-Problems/blob/main/TopCoderDP/least_expensive_path.py)
-* [Triple path (TODO - solved only the one path problem)](https://github.com/RiccardoMPesce/Unsorted-Solved-Problems/blob/main/TopCoderDP/three_path.py)
+* [Triple path (solution not so elegant and not commented)](https://github.com/RiccardoMPesce/Unsorted-Solved-Problems/blob/main/TopCoderDP/three_path.py)
