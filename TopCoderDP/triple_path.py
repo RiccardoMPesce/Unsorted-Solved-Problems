@@ -42,7 +42,6 @@ def triple_path_finder(grid):
         
         for (p1, p2) in items[-1][-1]:
             grid[p1][p2] = 0
-        print(grid)
 
     return sum(after_path), three_paths
 
